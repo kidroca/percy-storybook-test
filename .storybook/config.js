@@ -6,3 +6,7 @@ function loadStories() {
 }
 
 configure(loadStories, module);
+
+if (typeof window === 'object') {
+  window.__storybook_stories__ = require('@kadira/storybook').getStorybook();
+}
