@@ -56,7 +56,6 @@ class Footer extends Component {
             </li>
           )}
         </ul>
-        {this.renderClearButton()}
       </footer>
     )
   }
